@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- HEADER, NAVIGATIONSMENY -->
+    <header>
+      <div class="container-fluid mb-5">
+        <nav class="navbar bg-body-tertiary fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand ms-3" href="index.html">
+              <img src="images/NavbarLogo.svg" alt="..." />
+            </a>
+            <button
+              class="navbar-toggler me-3"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="offcanvas offcanvas-end"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="biography.html">Biography</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="artclasses.html">Art classes</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Portfolio
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="gallery.html">Gallery</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="exhibitions.html"
+                          >Exhibitions</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--MAIN, HEROBILD-->
+    <main>
+      <div class="card rounded-0 border-0 text-bg-dark">
+        <img
+          src="images/backgroundMain.svg"
+          class="card-img rounded-0 border-0"
+          alt="test"
+        />
+      </div>
+    </main>
+    <!-- FOOTER -->
+    <footer>
+      <div class="card rounded-0 border">
+        <div class="card-body">
+          <div class="container">
+            <div class="row row-cols-2 row-cols-md-3 align-items-start gx-4">
+              <!-- NAVIGATIONSMENY -->
+              <div class="col px-3 text-start">
+                <h5 class="fw-bold">Navigation</h5>
+                <ul class="list-unstyled">
+                  <li><a class="nav-link active" href="index.html">Home</a></li>
+                  <li>
+                    <a class="nav-link" href="biography.html">Biography</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="artclasses.html">Art classes</a>
+                  </li>
+                  <li><a class="nav-link" href="#">Portfolio</a></li>
+                  <li><a class="nav-link" href="gallery.html">Gallery</a></li>
+                  <li>
+                    <a class="nav-link" href="exhibitions.html">Exhibitions</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- KONTAKTDETALJER -->
+              <div class="col px-3 text-start">
+                <h5 class="fw-bold">Details</h5>
+                <ul class="list-unstyled">
+                  <li>Helena Strömer Art</li>
+                  <li>Stockholm, Sweden</li>
+                </ul>
+              </div>
+
+              <!-- SOCIALA MEDIER -->
+              <div class="col px-3 text-start">
+                <h5 class="fw-bold">Where art meets connection</h5>
+                <div class="d-flex flex-wrap align-items-center gap-2">
+                  <i class="bi bi-instagram fs-4"></i>
+                  <i class="bi bi-facebook fs-4"></i>
+                  <i class="bi bi-linkedin fs-4"></i>
+                  <i class="bi bi-envelope-at fs-4"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

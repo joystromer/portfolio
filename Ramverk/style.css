@@ -1,0 +1,27 @@
+/* Fonter för webbplatsen */
+
+@font-face {
+  font-family: Barlow;
+  src: url(Fonts/BarlowCondensed-Regular.woff) format('woff'),
+    url(Fonts/BarlowCondensed-Regular.woff2) format('woff2');
+}
+
+* {
+  font-family: Barlow, sans-serif;
+}
+
+/* Spacing för föremålen under navigationsmenyn */
+
+.mt-navbar-space {
+  margin-top: 80px;
+}
+
+/* Marginaler för bilderna på sidan Exhibitions */
+
+.corner-center-r {
+  margin-right: -325px;
+}
+
+.corner-center-l {
+  margin-left: -325px;
+}
