@@ -42,4 +42,4 @@ to be easy to find and easy to follow.
 ## Credits
 
 - Yoga poses and images from [Yoga API](https://github.com/alexcumplido/yoga-api) by Alexandre C.
-- (some images by monkik and dDara, via Flaticon)
+(some images by monkik and dDara, via Flaticon)
