@@ -18,10 +18,11 @@ to be easy to find and easy to follow.
 
 ## Features
 
-- Yoga poses fetched from an API, for three different levels
-- Multiple pages with navigation using React Router
-- Background music with a play/pause button
-- Information about yoga, to easily step into your own practice
+- Explore yoga poses for three levels: beginner, intermediate and expert
+- Read the names and benefits of each pose
+- Navigate between pages: start, asanas, yoga and about
+- Play or pause calming background music
+- Learn how to step into your own yoga practice
 
 ## What I practiced
 
