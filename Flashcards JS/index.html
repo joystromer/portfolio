@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta name="description" content="Examinationsuppgift GJS" />
+    <meta name="author" content="Joy Strömer" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcards</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="normalize.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="headline">Flashcards</h1>
+        <div class="box">
+          <h4 class="instructions">
+            Här skapar du flashcards för att öva inför dina tentor eller bli mer
+            allmänbildad! Korten sparas likt i ett bibliotek så att du kan
+            återvända vid flera tillfällen.
+          </h4>
+          <label for="question">Skriv en fråga</label>
+          <textarea
+            id="question"
+            name="question"
+            cols="37"
+            rows="2"
+            placeholder='Exempelvis: "Vilken funktion behövs för att kunna lagra data i localStorage?"'
+          ></textarea>
+          <label for="answer">Skriv svaret på frågan</label>
+          <textarea
+            id="answer"
+            name="Svar på fråga"
+            cols="37"
+            rows="3"
+            placeholder='Exempelvis: "JSON.stringify omvandlar objektet till en sträng vilket är formatet som används i localStorage."'
+          ></textarea>
+          <div id="sparaFlashcard"></div>
+        </div>
+      </header>
+      <main>
+        <div id="flashcardBox"></div>
+      </main>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
