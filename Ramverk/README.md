@@ -2,7 +2,7 @@
 
 I created this web page using the framework (Ramverk in Swedish) with Bootstrap.
 
-[Open the page](https://joystromer.github.io/portfolio/Ramverk/index.html)
+[Open the page](https://joystromer.github.io/portfolio/HelenaStromerArt/index.html)
 
 My mom is an artist and I built this web page for her, inspired by her art. 
 This was during the time I studied the program Webmaster at University West in Sweden. 
