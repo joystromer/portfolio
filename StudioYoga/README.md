@@ -4,6 +4,8 @@ My first React project, built with Vite at University West: an app for yogis
 
 [Open the app](https://joystromer.github.io/portfolio/StudioYoga/index.html#/)
 
+![Mockup of StudioYoga on desktop and mobile](mockup.png)
+
 ## What the app is about
 
 StudioYoga is a yoga app where users can explore yoga poses (asanas) for three different levels. 
