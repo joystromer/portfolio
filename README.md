@@ -18,5 +18,5 @@ My first JavaScript project: a flashcard app where users create and delete cards
 
 ## Contact
 
-- Email: [joy_stromer@hotmail.com](mailto:joy_stromer@hotmail.com)
+- [joy_stromer@hotmail.com](mailto:joy_stromer@hotmail.com)
 - [LinkedIn](https://www.linkedin.com/in/joy-stromer/)
