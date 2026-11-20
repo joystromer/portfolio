@@ -16,6 +16,8 @@ it allows you to move at your own pace and find what suits your practice.
 Whether you are looking for inspiration or a quick reminder, everything is designed 
 to be easy to find and easy to follow.
 
+![Mockup of StudioYoga on desktop and mobile](Mockup.png)
+
 ## Features
 
 - Explore yoga poses for three levels: beginner, intermediate and expert
