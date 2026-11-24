@@ -2,7 +2,7 @@
 
 At University West we received the assignment to film a video and build a web page where we integrated it to the start page.
 
-[Open the app](https://joystromer.github.io/portfolio/Lombok/index.html#/)
+[Open the web page](https://joystromer.github.io/portfolio/Lombok/index.html#/)
 
 <!--
 ## Features
