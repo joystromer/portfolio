@@ -1,0 +1,375 @@
+/* IMPORTED FONTS */
+
+@font-face {
+  font-family: opensans-semibold;
+  src: url(fonts/opensans-semibold.woff) format('woff'),
+    url(fonts/opensans-semibold.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: opensans-regular;
+  src: url(fonts/opensans-regular.woff) format('woff'),
+    url(fonts/opensans-regular.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: opensans-bold;
+  src: url(fonts/opensans-bold.woff) format('woff'),
+    url(fonts/opensans-bold.woff2) format('woff2');
+}
+
+/* ALL PAGE */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url(images/gronablad.jpg);
+  background-size: 70%;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.top-bar {
+  font-family: opensans-bold, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 70px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.knappar {
+  letter-spacing: 0.3rem;
+  list-style-type: none;
+  font-size: 23px;
+}
+
+.knappar a {
+  color: yellow;
+}
+
+.knappar a:hover {
+  background-color: rgb(1, 111, 1);
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+#search {
+  background-color: yellow;
+  font-size: 16px;
+  height: 36px;
+  border-radius: 20px;
+  border-color: rgb(249, 249, 151);
+  padding-left: 35px;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  margin-left: 12px;
+  font-size: 20px;
+  color: rgb(1, 87, 1);
+  pointer-events: none;
+}
+
+.searchbar div {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+::placeholder {
+  color: rgb(1, 87, 1);
+}
+
+#search:focus {
+  outline: none;
+  box-shadow: 0 0 5px yellow;
+}
+
+/* HERO SECTION */
+
+.video-hero video {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 30px;
+}
+
+/* MAIN */
+
+main {
+  font-family: opensans-regular, sans-serif;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'lmbk trvl'
+    'lmbk wrld';
+  gap: 2rem;
+}
+
+.lombok,
+.travel,
+.world {
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 30px;
+  color: rgb(1, 87, 1);
+  grid-area: lmbk;
+}
+
+.travel {
+  grid-area: trvl;
+}
+
+.world {
+  grid-area: wrld;
+}
+
+/* FOOTER */
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: yellow;
+  background-color: rgb(1, 74, 1, 0.8);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  gap: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: 'foot arti kont omos';
+}
+
+footer a {
+  font-family: opensans-bold, sans-serif;
+  color: yellow;
+}
+
+footer p {
+  font-family: opensans-bold, sans-serif;
+  color: yellow;
+  width: 200px;
+}
+
+footer h3 {
+  font-family: opensans-semibold, sans-serif;
+}
+
+.footernav a:hover {
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 12px;
+}
+
+.omoss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: omos;
+}
+
+#icons {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+
+.social-media {
+  font-size: 10px;
+}
+
+.social-media:hover {
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 12px;
+}
+
+.instagram,
+.facebook,
+.tiktok {
+  width: 30px;
+  height: 30px;
+}
+
+.instagram:hover,
+.facebook:hover,
+.tiktok:hover {
+  color: yellow;
+  filter: drop-shadow(2px 2px black);
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  grid-area: foot;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.artikel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  grid-area: arti;
+}
+
+.kontakt {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  grid-area: kont;
+}
+
+.kontakt a:hover {
+  color: yellow;
+  text-shadow: 2px 2px 2px black;
+  border-radius: 12px;
+}
+
+/* RESPONSIVA DELAR */
+
+@media (max-width: 1300px) {
+  .wrapper {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper {
+    max-width: 800px;
+  }
+  .navigation {
+    gap: 15px;
+  }
+  .navigation li {
+    font-size: 16px;
+  }
+  .searchbar {
+    font-size: 16px;
+  }
+  main {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'lmbk'
+      'trvl'
+      'wrld';
+    gap: 2rem;
+  }
+  main h1 {
+    font-size: 20px;
+  }
+  main p {
+    font-size: 15px;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      'omos kont'
+      'arti foot';
+  }
+  footer .omoss {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapper {
+    max-width: 700px;
+  }
+  nav {
+    width: 100%;
+  }
+  .navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .searchbar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 601px) {
+  .wrapper {
+    max-width: 475px;
+  }
+  .navigation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation li {
+    font-size: 15px;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      'omos'
+      'kont'
+      'foot'
+      'arti';
+  }
+  .omoss,
+  .kontakt,
+  .footer,
+  .artikel {
+    margin-bottom: 30px;
+  }
+}
