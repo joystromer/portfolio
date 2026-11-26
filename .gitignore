@@ -1,2 +1,4 @@
 node_modules/
-.DS_Store# Ignore dependencies and macOS files
+.DS_Store
+
+# Ignore dependencies and macOS files
