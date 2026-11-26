@@ -4,19 +4,31 @@ At University West we received the assignment to film a video and build a web pa
 
 [Open the web page](https://joystromer.github.io/portfolio/Lombok/index.html#/)
 
-<!--
 ## Features
 
-- Creating videos with music and copy
-- I
+- Start page with integrated video
 
 ## What I practiced
 
-- Video integrations in Media
-- Camera theory, shooting different angles and
-- Adding video clips together
-- Adding multiple music string into the video
--
+- Camera angles and video production
+- Video editing with DaVinci Resolve
+- Adding text overlays to video
+- Editing audio and combining it with video
+- Compressing video for the web with HandBrake
+- Building layouts with CSS Grid and Flexbox
+- Responsive web design with media queries
+- Embedding and configuring HTML5 video
+- Custom fonts with @font-face
+- Styling navigation and hover effects
+- Working with SVG icons
 
+## Built with
 
-## Built with  -->
+- HTML
+- CSS
+- DaVinci Resolve
+- HandBrake
+
+## Credits
+
+- Icons created by Freepik - [Flaticon](https://www.flaticon.com/free-icons/instagram-logo)
