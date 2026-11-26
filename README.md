@@ -12,6 +12,10 @@ A yoga app built with React and Vite, using an open API to show yoga poses for t
 
 A website for an artist, built with HTML, CSS and Bootstrap. It presents her art, exhibitions and a form for signing up to art classes.
 
+### [Lombok](https://joystromer.github.io/portfolio/Lombok/index.html#/)
+
+Studied film theory, cut and created a video than builded a web page where I integrated it.
+
 ### [Flashcards](https://joystromer.github.io/portfolio/Flashcards/index.html)
 
 My first JavaScript project: a flashcard app where users create and delete cards, saved in LocalStorage.
