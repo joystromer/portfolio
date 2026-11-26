@@ -14,7 +14,7 @@ A website for an artist, built with HTML, CSS and Bootstrap. It presents her art
 
 ### [Lombok](https://joystromer.github.io/portfolio/Lombok/index.html#/)
 
-Studied film theory, cut and created a video than builded a web page where I integrated it.
+A video production project where we explored film theory, created and edited a video, and built a web page to practice media integration.
 
 ### [Flashcards](https://joystromer.github.io/portfolio/Flashcards/index.html)
 
