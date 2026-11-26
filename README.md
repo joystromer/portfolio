@@ -1,6 +1,6 @@
 # Joy's portfolio
 
-Hi! I'm Joy, and I studied the Webmaster program at University West in Sweden. This is a collection of my school projects in web development.
+Hi! I'm Joy, and I've studied the Webmaster program at University West in Sweden. This is a collection of my school projects in web development.
 
 ## Projects
 
